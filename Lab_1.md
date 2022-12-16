@@ -61,17 +61,43 @@ vi /etc/default/grub
 
 15. Print three files (/etc/hosts, /etc/xinetd.conf, and /etc/hosts.allow) to the tty12 printer
 
+![Screenshot from 2022-12-08 14-21-32](https://user-images.githubusercontent.com/110255978/208193193-29c25b48-dcfc-4cb0-b2ba-0e5763f1f4ef.png)
 
 16. View the print queue.
+
+![Screenshot from 2022-12-08 14-32-12](https://user-images.githubusercontent.com/110255978/208193263-3e7ef564-6087-4476-a3be-55fb545f5f15.png)
+
+![Screenshot from 2022-12-08 14-33-19](https://user-images.githubusercontent.com/110255978/208193452-4b98b71b-003c-48f4-bd3d-ee4d8d052d53.png)
+
+
 17. Remove the second print job from the tty12 printer queue, and then allow the print jobs from
 the queue to be printed
+
+![Screenshot from 2022-12-08 14-34-41](https://user-images.githubusercontent.com/110255978/208193494-684a0ff8-7007-40ac-95b4-d3f8b66576e3.png)
+
+
 18. Prevent print jobs from going to the tty12 printer's print queue.
+
+- cupsreject tty12
+
 19. Verify this by trying to print the /etc/hosts file.
+
+- lp -d tty12 /etc/hosts
+- lp: Destination "tty12" is not accepting jobs.
+
 20. Delete the tty12 printer with the lpadmin command.
+
+- lpadmin -x tty12
+
 21. You want to know some information about the status of the system every ten minutes today
 between the hours of 8:00 AM and 5:00 PM. to help investigate some performance issues you
 have been having. You suspect it might be memory related and want to keep an eye on those
 resources.
+
+![Screenshot from 2022-12-16 23-44-26](https://user-images.githubusercontent.com/110255978/208194131-61804101-5f30-4767-845d-a64dc22e325d.png)
+![Screenshot from 2022-12-16 23-44-09](https://user-images.githubusercontent.com/110255978/208194141-34c140fe-bcc8-4a9f-afe0-424c5ad1047c.png)
+
+
 22. Use mail as the root user to check for e-mail from the cron jobs you have scheduled.
 23. How could you send the output from these cron jobs to another e-mail address (the manager
 user)?
