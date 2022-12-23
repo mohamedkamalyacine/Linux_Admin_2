@@ -70,22 +70,58 @@ installed.
 
 
 21. Search for the plotting packages.
+
+![Screenshot from 2022-12-23 17-32-43](https://user-images.githubusercontent.com/110255978/209360784-c02af60d-0f13-4adf-870e-4862125f59db.png)
+
 22. Find out more information about the gunuplot package.
+
+![Screenshot from 2022-12-23 17-58-42](https://user-images.githubusercontent.com/110255978/209364057-6cf6d1e0-83da-4644-8250-59fa9ca1f721.png)
+
 23. Install the gnuplot package.
+
+![Screenshot from 2022-12-23 17-57-06](https://user-images.githubusercontent.com/110255978/209363910-5837b5a9-5fdf-4209-8670-1aad06af6b38.png)
+
 24. Attempt to remove the gnuplot package, but say no
 How many packages would be removed
+
+![Screenshot from 2022-12-23 18-00-22](https://user-images.githubusercontent.com/110255978/209364275-04eced40-0e13-44b0-a81b-b78e3565adfc.png)
+
 25. Attempt to remove the gunplot-common package but say no
 How many packages would be removed
 Using rpm
+
+![Screenshot from 2022-12-23 18-02-14](https://user-images.githubusercontent.com/110255978/209364479-82e5fab6-aa1e-4a95-8608-69d8517d723f.png)
+
 26. List all installed packages in your system.
+
+![Screenshot from 2022-12-23 18-03-15](https://user-images.githubusercontent.com/110255978/209364638-12b7b795-c6d4-431a-9adb-a4f6243b8071.png)
+
 27. View the files in the initscripts package
+
+![Screenshot from 2022-12-23 18-11-24](https://user-images.githubusercontent.com/110255978/209365585-147b56f5-7fc1-494a-9a8c-005e415cc0fe.png)
+
 28. Get general information about bash rpm.
+
+![Screenshot from 2022-12-23 18-04-59](https://user-images.githubusercontent.com/110255978/209364827-44f8a45a-ddf2-446d-a6af-0afecf972cd2.png)
+
 29. Have the files from the pam package changed since it was
 installed.
+
+![Screenshot from 2022-12-23 18-12-20](https://user-images.githubusercontent.com/110255978/209365681-4afde34e-d41b-4399-869e-697eaba0f1d7.png)
+
 30. Which installed packages have gnome in their names?
+
+![Screenshot from 2022-12-23 18-13-22](https://user-images.githubusercontent.com/110255978/209365779-fcd0241c-ece9-489a-a26c-2e674970f7a8.png)
+
 31. Install any uninstalled package from RH Enterprise Linux cds
+
+![Screenshot from 2022-12-23 18-14-19](https://user-images.githubusercontent.com/110255978/209365939-51bb73d4-cad8-4596-bac6-204f106aec0a.png)
+
 32. Search for software resemble the Photoshop software other than
 Gimp and install it.
+
+![Screenshot from 2022-12-23 18-19-24](https://user-images.githubusercontent.com/110255978/209366715-52380d88-c4ef-4a72-9805-14a53b8cac36.png)
+
 33. Create the file /etc/yum.repos.d/cdrom.repo to enable install from
 the iso from the iso of Red Hat.
 34. Try to install any package from the new repository
