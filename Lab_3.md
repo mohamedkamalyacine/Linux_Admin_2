@@ -17,9 +17,22 @@ Lab 3
 
 ![Screenshot from 2022-12-23 14-46-42](https://user-images.githubusercontent.com/110255978/209338610-620a174c-adb7-47bf-b158-c8ca07de3cea.png)
 
-
-
 5. Configure your network card to have static IP.
+
+![Screenshot from 2022-12-23 14-57-25](https://user-images.githubusercontent.com/110255978/209339901-19dbd64f-53cb-46bd-b1ca-f1424a34e906.png)
+
+
+- Create a new file named /etc/sysconfig/network-scripts/ifcfg-eth0 the same as the above photo:
+    -DEVICE=eth0
+    -BOOTPROTO=none
+    -ONBOOT=yes
+    -PREFIX=24
+    -IPADDR=192.168.2.203
+    
+    then, Restart network service using this command:
+    -systemctl restart NetworkManager
+
+
 6. Bring your interface up.
 7. Verify your network setting using ifconfig command
 8. Configure your network card to have dynamic IP using network
