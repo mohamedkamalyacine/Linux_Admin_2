@@ -34,10 +34,19 @@ Lab 3
 
 
 6. Bring your interface up.
+  - ip link set dev eth0 up
+
 7. Verify your network setting using ifconfig command
+
+![Screenshot from 2022-12-23 15-06-03](https://user-images.githubusercontent.com/110255978/209341109-9fe8df61-fd5f-41e8-b7c6-51d0f9b226f4.png)
+
 8. Configure your network card to have dynamic IP using network
 manager command.
+
 9. Check using ifconfig then check its configuration file.
+
+![Screenshot from 2022-12-23 15-12-52](https://user-images.githubusercontent.com/110255978/209341949-92d19e5b-e496-43b6-a63b-f4bf2d162292.png)
+
 10. Reconfigure your network card using system-config-network
 utility to have static IP.
 11. Configure your network card to have 3 IPs and check that they
@@ -52,9 +61,14 @@ while not affecting your ability to ping them.
 net.ipv4.icmp_echo_ignore_all=1
 18. Execute sysctl –p command.
 19. Check the value of /proc/sys/net/ipv4/icmp_echo_ignore_all.
+
 Using yum
 20. Attempt to run the command gnuplot. You should find that it is not
 installed.
+
+![Screenshot from 2022-12-23 15-16-00](https://user-images.githubusercontent.com/110255978/209342327-0c786af7-b18f-4d32-93d0-c2c8cb698e0d.png)
+
+
 21. Search for the plotting packages.
 22. Find out more information about the gunuplot package.
 23. Install the gnuplot package.
