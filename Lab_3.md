@@ -23,14 +23,14 @@ Lab 3
 
 
 - Create a new file named /etc/sysconfig/network-scripts/ifcfg-eth0 the same as the above photo:
-    -DEVICE=eth0
-    -BOOTPROTO=none
-    -ONBOOT=yes
-    -PREFIX=24
-    -IPADDR=192.168.2.203
+    - DEVICE=eth0
+    - BOOTPROTO=none
+    - ONBOOT=yes
+    - PREFIX=24
+    - IPADDR=192.168.2.203
     
-    then, Restart network service using this command:
-    -systemctl restart NetworkManager
+- then, Restart network service using this command:
+    - systemctl restart NetworkManager
 
 
 6. Bring your interface up.
